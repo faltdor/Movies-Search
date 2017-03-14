@@ -25,4 +25,8 @@ describe('MoviesComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it(`should have popularList!'`, async(() => {
+    
+    expect(component.popularList).toBeTruthy();
 });
